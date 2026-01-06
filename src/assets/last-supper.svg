@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+  <title id="title">The Last Supper placeholder</title>
+  <desc id="desc">Calm table scene placeholder</desc>
+  <rect width="900" height="500" fill="#f0ece4" />
+  <rect x="60" y="120" width="780" height="260" rx="16" fill="#e1d8c8" stroke="#7a6a58" stroke-width="8" />
+  <rect x="80" y="260" width="740" height="60" rx="10" fill="#cbbba6" />
+  <path d="M120 240 Q170 190 220 240 T320 240 T420 240 T520 240 T620 240 T720 240 T800 240" fill="none" stroke="#7a6a58" stroke-width="6" />
+</svg>
