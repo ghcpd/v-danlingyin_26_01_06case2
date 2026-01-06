@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none">
+  <rect width="400" height="500" fill="#e8e4dc"/>
+  <rect x="50" y="50" width="300" height="350" fill="#d4d0c8" rx="4"/>
+  <circle cx="200" cy="180" r="60" fill="#9a9590"/>
+  <rect x="120" y="260" width="160" height="120" fill="#9a9590" rx="4"/>
+  <text x="200" y="440" font-family="Georgia, serif" font-size="24" fill="#5c5854" text-anchor="middle">Mona Lisa</text>
+  <text x="200" y="470" font-family="Arial, sans-serif" font-size="14" fill="#8b7355" text-anchor="middle">1503</text>
+</svg>

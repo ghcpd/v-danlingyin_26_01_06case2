@@ -1,0 +1,159 @@
+Claude-Opus-4.5  ：：
+User: Prompt 
+You are a senior front-end engineer specializing in Vue 3, TypeScript, and modern web application architecture.
+Your task is to build a complete, production-ready cultural promotion website from scratch, based strictly on the specifications provided in input_ui_spec.txt.
+This is a UI Case evaluation focusing on:
+- Building a full application from zero
+- Multi-page website structure
+- Vue 3 + TypeScript correctness
+- Component architecture and reusability
+- Visual storytelling for cultural / art content
+- Responsiveness and accessibility
+- Ability to follow a detailed UI / product specification exactly
+--------------------------------------------------------------------------------
+Technical Requirements
+- Framework: Vue 3 (Composition API)
+- Language: TypeScript (strict mode)
+- Build Tool: Vite
+- Package Manager: pnpm
+- Styling: 자유 선택 (Tailwind / CSS Modules / SCSS / 任意组件库)
+- Routing: Vue Router
+- State Management: 可选（Pinia / provide-inject / local state）
+- Backend: ❌ No real backend (static or mock data only)
+--------------------------------------------------------------------------------
+General Rules
+- Read input_ui_spec.txt thoroughly before writing any code
+- Identify all pages, components, layouts, and user flows
+- Do NOT assume any feature not explicitly described
+- Do NOT invent content, pages, or interactions
+- All text content must come from the specification
+- No usage of any in TypeScript
+- Functional, readable, maintainable code only
+--------------------------------------------------------------------------------
+Project Deliverables
+You MUST generate:
+1.Project configuration files
+- package.json
+- tsconfig.json (strict = true)
+- vite.config.ts
+- index.html
+2.Application structure
+- src/main.ts
+- src/App.vue
+- src/router/index.ts
+- Clear folder structure (pages / components / assets / data)
+3.Pages (as defined in spec)
+- Home page
+- About Leonardo page
+- Artwork Gallery page
+- Artwork Detail page
+- Exhibition Info page
+4.Core UI features
+- Artwork browsing
+- Artwork detail view
+- Timeline / storytelling sections
+- Navigation header & footer
+- Responsive layout (mobile / tablet / desktop)
+5.Accessibility
+- Semantic HTML
+- Keyboard navigable navigation
+- aria-labels where appropriate
+- Proper heading hierarchy
+6.Performance & UX
+- Lazy-loaded routes
+- Image optimization awareness
+- Smooth page transitions (optional but encouraged)
+--------------------------------------------------------------------------------
+Documentation Output
+At the end, also generate:
+- README.md including:
+- Project overview
+- Artistic & cultural concept
+- Tech stack
+- Installation instructions (pnpm install)
+- Development usage (pnpm dev)
+- Build instructions (pnpm build)
+- Project structure explanation
+- Page-by-page feature description
+- Manual UI validation checklist
+- Known limitations
+--------------------------------------------------------------------------------
+Evaluation Notes (implicit)
+Your output will be evaluated on:
+- Correctness vs specification
+- Completeness
+- UI architecture quality
+- TypeScript strictness
+- Accessibility awareness
+- Clarity and professionalism
+Failure to follow the specification exactly will be considered a test failure.
+
+GitHub Copilot: I'll build the complete Leonardo da Vinci cultural promotion website based on the specification. Let me create all the necessary files. 
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/package.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/tsconfig.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/tsconfig.node.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/vite.config.ts)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/index.html)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/public/favicon.svg)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/src/env.d.ts)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/src/main.ts)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/src/App.vue)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/src/router/index.ts)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/src/data/artworks.ts)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/src/data/exhibition.ts)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/src/styles/main.css)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/src/components/AppHeader.vue)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/src/components/AppFooter.vue)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/src/components/ArtworkCard.vue)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/src/components/HeroSection.vue)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/src/pages/HomePage.vue)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/src/pages/AboutPage.vue)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/src/pages/GalleryPage.vue)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/src/pages/ArtworkDetailPage.vue)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/src/pages/ExhibitionPage.vue)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/src/pages/NotFoundPage.vue)
+
+Now let me add placeholder images and the README.md file: 
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/public/images/mona-lisa.jpg)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/public/images/last-supper.jpg)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/public/images/vitruvian-man.jpg)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/public/images/lady-ermine.jpg)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.6/case2/Claude-Opus-4.5/leonardo-davinci/README.md)
+
+Now let me install the dependencies and run the development server to verify everything works: 
+
+Ran terminal command: cd "c:\Users\v-danlingyin\Documents\microsoft_projects_files\bugBash\26.1\1.6\case2\Claude-Opus-4.5\leonardo-davinci" ; pnpm install
+
+Ran terminal command: pnpm type-check
+
+Ran terminal command: pnpm dev
+
+Made changes.

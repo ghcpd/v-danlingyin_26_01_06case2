@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none">
+  <rect width="400" height="500" fill="#e8e4dc"/>
+  <rect x="30" y="80" width="340" height="200" fill="#d4d0c8" rx="4"/>
+  <rect x="50" y="100" width="40" height="60" fill="#9a9590"/>
+  <rect x="110" y="100" width="40" height="60" fill="#9a9590"/>
+  <rect x="170" y="100" width="40" height="60" fill="#9a9590"/>
+  <rect x="230" y="100" width="40" height="60" fill="#9a9590"/>
+  <rect x="290" y="100" width="40" height="60" fill="#9a9590"/>
+  <rect x="50" y="180" width="280" height="80" fill="#9a9590" rx="2"/>
+  <text x="200" y="340" font-family="Georgia, serif" font-size="22" fill="#5c5854" text-anchor="middle">The Last Supper</text>
+  <text x="200" y="370" font-family="Arial, sans-serif" font-size="14" fill="#8b7355" text-anchor="middle">1498</text>
+</svg>
