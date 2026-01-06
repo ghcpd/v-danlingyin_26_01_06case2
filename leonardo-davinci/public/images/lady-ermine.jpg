@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none">
+  <rect width="400" height="500" fill="#e8e4dc"/>
+  <rect x="80" y="60" width="240" height="320" fill="#d4d0c8" rx="4"/>
+  <circle cx="200" cy="160" r="50" fill="#9a9590"/>
+  <rect x="140" y="220" width="120" height="140" fill="#9a9590" rx="4"/>
+  <ellipse cx="280" cy="280" rx="30" ry="20" fill="#8b7355"/>
+  <text x="200" y="430" font-family="Georgia, serif" font-size="20" fill="#5c5854" text-anchor="middle">Lady with an Ermine</text>
+  <text x="200" y="460" font-family="Arial, sans-serif" font-size="14" fill="#8b7355" text-anchor="middle">1490</text>
+</svg>

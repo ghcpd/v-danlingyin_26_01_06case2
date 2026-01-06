@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none">
+  <rect width="400" height="500" fill="#e8e4dc"/>
+  <circle cx="200" cy="220" r="120" fill="none" stroke="#9a9590" stroke-width="2"/>
+  <rect x="100" y="120" width="200" height="200" fill="none" stroke="#9a9590" stroke-width="2"/>
+  <line x1="200" y1="100" x2="200" y2="340" stroke="#d4d0c8" stroke-width="1"/>
+  <line x1="80" y1="220" x2="320" y2="220" stroke="#d4d0c8" stroke-width="1"/>
+  <circle cx="200" cy="180" r="25" fill="#9a9590"/>
+  <rect x="175" y="210" width="50" height="80" fill="#9a9590"/>
+  <text x="200" y="420" font-family="Georgia, serif" font-size="22" fill="#5c5854" text-anchor="middle">Vitruvian Man</text>
+  <text x="200" y="450" font-family="Arial, sans-serif" font-size="14" fill="#8b7355" text-anchor="middle">1490</text>
+</svg>

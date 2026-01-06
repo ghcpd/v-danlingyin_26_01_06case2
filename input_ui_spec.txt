@@ -1,0 +1,134 @@
+Project Title:
+Leonardo da Vinci — Art & Mind
+
+Project Description:
+A cultural promotion website introducing Leonardo da Vinci’s life, artistic works, and influence.
+The website is informational, educational, and visually narrative-driven.
+No commercial features are included.
+
+--------------------------------------------------------------------------------
+Global Requirements
+
+- Language: English
+- Tone: Cultural, respectful, educational
+- Design style: Minimalist, museum-like, calm
+- Color palette: Neutral (white / beige / gray / muted brown)
+- No animations that distract from content
+- Fully responsive design
+
+--------------------------------------------------------------------------------
+Pages & Requirements
+
+1. Home Page (/)
+
+Purpose:
+Introduce the exhibition theme and Leonardo da Vinci’s significance.
+
+Sections:
+- Hero section
+  - Title: "Leonardo da Vinci"
+  - Subtitle: "Art, Science, and the Renaissance Mind"
+- Introduction text (short paragraph)
+- Highlight section showing 3 featured artworks (image + title only)
+- Navigation entry points to:
+  - About Leonardo
+  - Gallery
+  - Exhibition Info
+
+--------------------------------------------------------------------------------
+2. About Leonardo Page (/about)
+
+Purpose:
+Explain Leonardo’s background and historical importance.
+
+Content sections:
+- Early life
+- Renaissance context
+- Interdisciplinary genius (art, science, anatomy, engineering)
+
+Layout:
+- Vertical reading flow
+- Section headings required
+- Text-focused, minimal imagery
+
+--------------------------------------------------------------------------------
+3. Artwork Gallery Page (/gallery)
+
+Purpose:
+Allow users to browse Leonardo’s artworks.
+
+Requirements:
+- Display a grid of artworks
+- Each artwork card shows:
+  - Artwork image
+  - Artwork title
+  - Year
+- Clicking an artwork navigates to its detail page
+
+Artwork list (static data only):
+- Mona Lisa (1503)
+- The Last Supper (1498)
+- Vitruvian Man (1490)
+- Lady with an Ermine (1490)
+
+--------------------------------------------------------------------------------
+4. Artwork Detail Page (/gallery/:id)
+
+Purpose:
+Show detailed information about a single artwork.
+
+Content:
+- Large artwork image
+- Title
+- Year
+- Description paragraph
+- “Back to Gallery” navigation
+
+Rules:
+- Artwork data must come from a static data file
+- URL param controls which artwork is shown
+- Invalid IDs show a graceful fallback message
+
+--------------------------------------------------------------------------------
+5. Exhibition Info Page (/exhibition)
+
+Purpose:
+Provide practical visitor information.
+
+Content:
+- Exhibition title
+- Location (fictional)
+- Date range
+- Opening hours
+- Short descriptive paragraph
+
+--------------------------------------------------------------------------------
+Navigation & Layout
+
+- Top navigation bar visible on all pages
+- Navigation items:
+  - Home
+  - About
+  - Gallery
+  - Exhibition
+- Footer with:
+  - Project title
+  - Short disclaimer text (educational purpose)
+
+--------------------------------------------------------------------------------
+Non-Functional Constraints
+
+- No authentication
+- No forms
+- No payments
+- No external APIs
+- No user-generated content
+
+--------------------------------------------------------------------------------
+Out of Scope (Must NOT appear)
+
+- Shopping or ticket purchase
+- Login or user accounts
+- Animations-heavy UI
+- Non-Leonardo artworks
+- Additional pages not listed above
