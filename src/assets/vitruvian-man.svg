@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" role="img" aria-labelledby="title desc">
+  <title id="title">Vitruvian Man placeholder</title>
+  <desc id="desc">Geometric study placeholder</desc>
+  <rect width="700" height="700" fill="#f7f3ea" />
+  <circle cx="350" cy="350" r="240" fill="none" stroke="#7a6a58" stroke-width="8" />
+  <rect x="170" y="170" width="360" height="360" fill="none" stroke="#b69b7d" stroke-width="6" />
+  <line x1="350" y1="190" x2="350" y2="510" stroke="#7a6a58" stroke-width="6" />
+  <line x1="210" y1="350" x2="490" y2="350" stroke="#7a6a58" stroke-width="6" />
+  <path d="M260 320 Q350 280 440 320" fill="none" stroke="#7a6a58" stroke-width="5" />
+</svg>

@@ -1,0 +1,144 @@
+:root {
+  color-scheme: light;
+  --bg: #f5f2eb;
+  --surface: #f0ebe3;
+  --card: #e6ded0;
+  --text: #2f2a25;
+  --muted: #6e6254;
+  --accent: #8a755f;
+  --border: #d8d2c3;
+  --max-width: 1100px;
+  --radius: 14px;
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Cormorant Garamond", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+}
+
+main {
+  min-height: 60vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.page-section {
+  margin: 3rem 0;
+}
+
+.section-title {
+  font-size: clamp(2rem, 3vw, 2.4rem);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.06em;
+}
+
+.section-subtitle {
+  color: var(--muted);
+  margin-bottom: 1.4rem;
+  font-size: 1rem;
+}
+
+.button-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text);
+  font-weight: 600;
+  transition: background 120ms ease, border-color 120ms ease;
+}
+
+.button-link:hover {
+  background: var(--surface);
+  border-color: var(--accent);
+}
+
+.grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.grid.two {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.grid.three {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.1rem;
+  box-shadow: var(--shadow);
+}
+
+.hero {
+  padding: 3rem 0 2.5rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.6rem, 4vw, 3.2rem);
+  margin: 0 0 0.6rem;
+}
+
+.hero p {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  max-width: 38rem;
+}
+
+.tagline {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.fallback {
+  padding: 2rem;
+  border-radius: var(--radius);
+  border: 1px dashed var(--border);
+  background: var(--surface);
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding-top: 2rem;
+  }
+}
